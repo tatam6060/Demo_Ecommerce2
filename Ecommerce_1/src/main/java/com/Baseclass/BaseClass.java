@@ -27,6 +27,7 @@ public class BaseClass {
 		  driver.get(URL);
 		  driver.manage().window().maximize();
 		  driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
+		  System.out.println("Hello");
 		 // return driver;
 	}
 }
